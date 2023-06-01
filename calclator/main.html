@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <title>calculator</title>
+  </head>
+  <body>
+    <script>
+      let data = '';
+      let result =0;
+      function displayData(a){
+        data = data+a;
+        document.getElementById("dataInput").value=data;
+      }
+      function displayResult(){
+        document.getElementById("dataInput").value=eval(data);
+      }
+      function clearData(){
+        data = '';
+        result = 0 ;
+        document.getElementById("dataInput").value=data;
+      }
+    </script>
+    <div></div>
+    <div class="Border">
+      <div class="header">
+        <input class="in" type="text" id = "dataInput">
+        <button class="res" onclick="displayResult()">result</button>
+      </div>
+      <div class="num">
+          <button onclick="displayData('1')">1</button>
+          <button onclick="displayData('2')">2</button>
+          <button onclick="displayData('3')">3</button>
+          <button onclick="displayData('-')">-</button>
+          <button onclick="displayData('4')">4</button>
+          <button onclick="displayData('5')">5</button>
+          <button onclick="displayData('6')">6</button>
+          <button onclick="displayData('*')">*</button>
+          <button onclick="displayData('7')">7</button>
+          <button onclick="displayData('8')">8</button>
+          <button onclick="displayData('9')">9</button>
+          <button onclick="displayData('+')">+</button>
+          <button onclick="displayData('%')">%</button>
+          <button onclick="displayData('0')">0</button>
+          <button onclick="displayData('/')">/</button>
+          <button onclick="clearData()">clear</button>
+      </div>
+      
+    </div>
+    <div></div>
+  </body>
+</html>
