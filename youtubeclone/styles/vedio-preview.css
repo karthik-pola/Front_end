@@ -1,0 +1,56 @@
+    .thumb-nail{
+        width: 100%; 
+        }
+    .profile{  
+        width: 50px;
+        border-radius: 25px;
+        }
+    .channel-profile{
+        display: grid;
+        grid-template-columns: 50px 1fr;        
+        display: inline-block;
+        width=50px;
+        }
+    .vedio-info{
+        margin-top: 0;
+        vertical-align: top;
+        display: inline-block;
+        width: 100%;
+        padding-left: 3px;
+        }
+    .vedio-title{
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 7px;
+        }
+    .vedio-author,
+    .vedio-stats{
+        font-size: 11px;
+        font-weight: 300;
+        color: rgb(96, 96, 96);
+        margin-bottom: 3px;
+        } 
+    .main-grid{
+        display: grid;
+           
+    }   
+    @media (min-width:100px) (max-width:400px){
+        .main-grid{
+            grid-template-columns: 1fr;
+        }
+    }
+    @media (max-width: 800px){
+        .main-grid{
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+    @media (min-width:801px) and (max-width:999px){
+        .main-grid{
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+    @media(min-width:1000px){
+        .main-grid{
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+    }

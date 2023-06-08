@@ -1,0 +1,87 @@
+.sidebar{
+    position: fixed;
+    top: 53px;
+    left: 0;
+    bottom: 0;
+    width: 73px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    font-size: 10px;
+}
+.s-home-icon{
+    width: 25px;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+.s-explore-icon{
+    width: 25px;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+.s-subscription-icon{
+    padding-bottom: 8px;
+    width: 25px;
+    cursor: pointer;
+}
+.s-original-icon{
+    width: 25px;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+.s-youtube-music-icon{
+    width: 25px;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+.s-library-icon{
+    width: 25px;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+.s-p{
+    font-style: roboto;
+    display: inline-block;
+    font-weight: 300;
+    cursor: pointer;
+}
+.s-explore{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.s-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.s-subscription{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.s-original{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.s-youtube-music{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.s-library{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
